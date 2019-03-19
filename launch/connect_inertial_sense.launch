@@ -1,0 +1,5 @@
+<launch>
+ <node name="uINS"  pkg="inertial_sense"  type="inertial_sense_node"/>
+ <param name="port" value="/dev/uINS"/>
+</launch>
+
